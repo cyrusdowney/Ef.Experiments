@@ -9,5 +9,5 @@ var dbcontext = new PeopleContext();
 
 
 
-dbcontext.People.Add(new Person { firstName = "John", lastName = "Doe" });
+dbcontext.People.Add(new person { firstName = "John", lastName = "Doe" });
 dbcontext.SaveChanges();
